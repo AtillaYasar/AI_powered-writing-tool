@@ -443,7 +443,6 @@ class ConfigHandler:
         'listbox':{
             'background': '{color 1}',
             'foreground': '{color 2}',
-            'insertbackground': '{color 2}',
             'selectbackground': '{color 2}',
             'selectforeground': '{color 1}',
             'font': '{default font}',
@@ -454,9 +453,9 @@ class ConfigHandler:
     def __init__(self, config_path):
         self.config_path = config_path
 
-        # this is only needed the first time
-        if 'default_config.json' not in os.listdir():
-            with open('default_config.json', 'w') as f:
+        # for convenience
+        if config_path not in os.listdir():
+            with open(config_path, 'w') as f:
                 json.dump(self.get_default_config(), f, indent=4)
 
     def apply_meta(self, settings, meta):
@@ -558,7 +557,6 @@ def main():
                 print(col('gr', 'done embedding strings'))
 
     config_handler = ConfigHandler('config.json')
-    config_handler.reset_default()
     config = config_handler.get_config()
 
     root_settings = config_handler.apply_meta(config['main'], config['meta'])
