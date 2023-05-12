@@ -247,8 +247,6 @@ class DataHandler:
             for required in has:
                 if required not in meta_tags:
                     return False
-            if meta_tags == []:
-                return False
             return True
 
         # use checker to... actually create the boolean filter mask
