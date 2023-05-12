@@ -1,6 +1,9 @@
 # AI_powered-writing-tool
 Tkinter app that uses OpenAI's ChatGPT (3.5) and embeddings endpoint to help with writing text.
 
+## screenshot
+![Screenshot_3](https://github.com/AtillaYasar/AI_powered-writing-tool/assets/112716905/5d60d42f-4445-421b-9706-12d0152e5b31)
+
 ## how to use
 - download  (for example with `gh repo clone AtillaYasar/AI_powered-writing-tool`, or by downloading the zip and unzipping)
 - run main.py  (double click)
