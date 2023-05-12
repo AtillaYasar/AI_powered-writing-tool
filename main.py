@@ -437,7 +437,7 @@ class ConfigHandler:
             'font': '{default font}',
             'width': 40,
             'height': 20,
-            'geometry': '{topright},
+            'geometry': '{topright}',
             'title': 'scratchpads',
         },
         'listbox':{
