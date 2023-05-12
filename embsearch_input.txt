@@ -1,0 +1,15 @@
+[search term]
+{chatgpt.last}
+[/search term]
+
+[search params]
+{
+    "n": 3,
+    "hasno": ["search terms", "search term"],
+    "has": []
+}
+[/search params]
+
+[autoembed]
+true
+[/autoembed]
