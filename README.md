@@ -52,3 +52,7 @@ is case-insensitive
 	- chatgpt.latest: last message in chatgpt conversation
 	- chatgpt.last: same as above.
 ```
+
+
+## note
+app is in development  
