@@ -4,21 +4,23 @@ Tkinter app that uses OpenAI's ChatGPT (3.5) and embeddings endpoint to help wit
 ## how to use
 - download  (for example with `gh repo clone AtillaYasar/AI_powered-writing-tool`, or by downloading the zip and unzipping)
 - run main.py  (double click)
-- read stuff in f9 tab in the `scratchpads` window, on the top right for general explanation  (which is repeated below)
+- read stuff in f9 tab in the `scratchpads` window, on the top right for general explanation
 - to use OAI api (for chatgpt and embeddings-search), put api key in `secret_things.py`
 
-## general explanation  (also in app, in f9 tab)
+## feature summary
 ```
-main features:
-	- chatgpt prompter
-	- text-similarity search, with ability to filter by metadata tags  (using OAI's embeddings endpoint)
-		+ can update embeddings database from within app
-	- can access other windows' text by writing {placeholder} before API calls
-		+ for example in the chatgpt prompter, "hey how do i do {f3} in python, in my program? here is my code: {main}". this will put text from the f3 tab, and from the "main editor", into the prompt, then call chatgpt.
-	- customizable layout  (from config.json)
-	- save text with ctrl+s
+    - ChatGPT prompting
+    - text-similarity search  (using OpenAI's embeddings endpoint)
+        + update embeddings database from within app
+        + filter by metadata before similarity search
+    - can use `{placeholder}` values to pull text from various places in app
+        + example placeholder usage in ChatGPT prompt: 
+            `hey how do i do this in python? {f3} here is my code: {main}`
+    - customizable layout
+```
 
-
+## hotkeys
+```
 hotkeys
 
 # global
