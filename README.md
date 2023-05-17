@@ -2,7 +2,13 @@
 Tkinter app that uses OpenAI's ChatGPT (3.5) and embeddings endpoint to help with writing text.
 
 ## new version in `rewrite` folder
-not the final version, but much better. if you want to use it, first make a `secret_things.py` with an `openai_key` variable
+not the final version, but much better. if you want to use it, first make a `secret_things.py` with an `openai_key` variabl
+features in rewrite:
+- refactored into `main.py` and `tkinter_windows.py`, and an App class in `main.py` that handles things in a more centralized way
+  + but still very hacky
+- navigation between windows with ctrl+pagedown/pageup (goes clockwise/counterclockwise)
+- "embeddings helpers" commands to use in scratchpads window, for splitting text and adding metadata tags to multiple chunks at the same time, for feeding the embeddings database
+- "speed reading highlighting", basically press ctrl+b to highlight the first 2 letters of every word
 
 ## screenshot
 ![Screenshot_3](https://github.com/AtillaYasar/AI_powered-writing-tool/assets/112716905/5d60d42f-4445-421b-9706-12d0152e5b31)
