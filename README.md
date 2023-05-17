@@ -1,6 +1,9 @@
 # AI_powered-writing-tool
 Tkinter app that uses OpenAI's ChatGPT (3.5) and embeddings endpoint to help with writing text.
 
+## new version in `rewrite` folder
+not the final version, but much better. if you want to use it, first make a `secret_things.py` with an `openai_key` variable
+
 ## screenshot
 ![Screenshot_3](https://github.com/AtillaYasar/AI_powered-writing-tool/assets/112716905/5d60d42f-4445-421b-9706-12d0152e5b31)
 
@@ -58,6 +61,3 @@ is case-insensitive
 	- chatgpt.last: same as above.
 ```
 
-
-## note
-app is in development  
