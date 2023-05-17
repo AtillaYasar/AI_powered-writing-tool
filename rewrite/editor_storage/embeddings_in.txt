@@ -1,0 +1,15 @@
+[search params]
+{
+	"n": 3,
+	"hasno": ["search term"],
+	"has": []
+}
+[/search params]
+
+[search term]
+blabla
+[/search term]
+
+[autoembed]
+true
+[/autoembed]

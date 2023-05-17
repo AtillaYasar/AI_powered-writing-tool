@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "color 1": "black",
+        "color 2": "violet",
+        "default font": [
+            "comic sans",
+            12
+        ],
+        "topleft": "+0+0",
+        "topright": "-0+0",
+        "bottomleft": "+0-40",
+        "bottomright": "-0-40"
+    },
+    "main": {
+        "background": "{color 1}",
+        "foreground": "{color 2}",
+        "insertbackground": "{color 2}",
+        "selectbackground": "{color 2}",
+        "selectforeground": "{color 1}",
+        "font": "{default font}",
+        "width": 80,
+        "height": 25,
+        "geometry": "{topleft}",
+        "title": "main"
+    },
+    "chatgpt": {
+        "background": "{color 1}",
+        "foreground": "{color 2}",
+        "insertbackground": "{color 2}",
+        "selectbackground": "{color 2}",
+        "selectforeground": "{color 1}",
+        "font": "{default font}",
+        "width": 80,
+        "height": 25,
+        "geometry": "{bottomright}",
+        "title": "chatgpt"
+    },
+    "embeddings": {
+        "background": "{color 1}",
+        "foreground": "{color 2}",
+        "insertbackground": "{color 2}",
+        "selectbackground": "{color 2}",
+        "selectforeground": "{color 1}",
+        "font": "{default font}",
+        "width": 40,
+        "height": 20,
+        "geometry": "{bottomleft}",
+        "title": "embeddings"
+    },
+    "scratchpads": {
+        "background": "{color 1}",
+        "foreground": "{color 2}",
+        "insertbackground": "{color 2}",
+        "selectbackground": "{color 2}",
+        "selectforeground": "{color 1}",
+        "font": "{default font}",
+        "width": 80,
+        "height": 25,
+        "geometry": "{topright}",
+        "title": "scratchpads"
+    },
+    "listbox": {
+        "background": "{color 1}",
+        "foreground": "{color 2}",
+        "selectbackground": "{color 2}",
+        "selectforeground": "{color 1}",
+        "font": "{default font}",
+        "width": 10,
+        "height": 20
+    }
+}
